@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Montserrat);
+.navbar {
+  font-family: Montserrat;
+  padding: 10px;
+}
+.navbar-default {
+  background-color: rgba(44, 62, 80, 0.8);
+}
+.navbar-brand {
+  font-size: 20px;
+  color: #FFF !important;
+}
+ul.navbar-right > li > a {
+  font-size: 20px;
+  color: #FFF !important;
+}
+#home {
+  /*margin-top: 64px;*/
+  background: url('https://www.dropbox.com/s/dakyyuwenfk0hgx/officespace.jpg?raw=1') no-repeat center center fixed;
+  text-align: center;
+  background-size: cover;
+}
+.bg-overlay {
+  background: rgba(0,0,0,0.3);
+  height: 634px;
+  padding-top: 100px;
+}
+h1{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+.home-heading-text {
+  font-family: Lobster;
+  color: white;
+ /* font-size: 4.8em;*/
+}
+
+.home-description-text {
+  color: white;
+  /*font-size: */
+}
+
+.btn-social {
+  margin: 5px;
+}
+
+#about {
+  background: url('https://www.dropbox.com/s/29maewric9z7vwk/circuit.jpg?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+p, .about-me-desc, .portofolio-description-text {
+  color: white;
+  font-size: 1em;
+}
+
+#portofolio {
+  background: url('https://www.dropbox.com/s/nxqiies7po29u98/American-skyscrapers.jpg?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#contact {
+  background: url('https://www.dropbox.com/s/po7sdzsifxi5pgx/laptop.jpg?raw=1') no-repeat center center fixed;
+  background-size: cover;
+}
+#myCarousel img {
+  text-align: center;
+  margin: auto;
+  max-height: 300px;
+}
