@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster|Montserrat);
+
+@import "loading";
+
 .navbar {
   font-family: Montserrat;
   padding: 10px;
@@ -71,4 +74,16 @@ p, .about-me-desc, .portofolio-description-text {
   text-align: center;
   margin: auto;
   max-height: 300px;
+}
+#customModal {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,1) url("../img/loading_checkout.gif") 50% 50% no-repeat;
+}
+#content {
+  display: none;
 }

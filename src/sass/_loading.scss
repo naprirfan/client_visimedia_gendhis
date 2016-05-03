@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+$line_size : 2em;
+
+@mixin transformRotateZ($deg) {
+  -webkit-transform: rotateZ($deg);
+  -moz-transform: rotateZ($deg);
+  -o-transform: rotateZ($deg);
+  -ms-transform: rotateZ($deg);
+  transform: rotateZ($deg);
+}
+@keyframes top2bottom {
+  0% {
+    
+  }
+  50% {
+    @include transformRotateZ(45deg);
+  }
+  100% {
+    @include transformRotateZ(90deg);
+  }
+}
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top : -(1.5 * $line_size);
+  margin-left: -(1.5 * $line_size);
+  .l1 {
+    width: $line_size;
+    height: $line_size;
+    border: 3px solid #000;
+    float: left;
+    animation: top2bottom 1s ease-out infinite;
+  }
+  .text {
+    text-align: center;
+    margin-top: 1em;
+    font-family: Montserrat, Futura, Arial;
+    color: black;
+  }
+}
+.clearfix {
+  clear: both;
+}
