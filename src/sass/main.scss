@@ -25,8 +25,8 @@ ul.navbar-right > li > a {
 }
 .bg-overlay {
   background: rgba(0,0,0,0.3);
-  height: 634px;
-  padding-top: 100px;
+  height: 50em;
+  padding-top: 5em;
 }
 h1{
      word-wrap: break-word;
@@ -36,10 +36,13 @@ h1{
      -o-hyphens: auto;
      hyphens: auto;
 }
-.home-heading-text {
+.home-heading-text, .navbar-brand {
   font-family: Lobster;
   color: white;
  /* font-size: 4.8em;*/
+}
+.navbar-brand {
+  font-size: 2.2em;
 }
 
 .home-description-text {
@@ -52,8 +55,10 @@ h1{
 }
 
 #about {
-  background: url('https://www.dropbox.com/s/29maewric9z7vwk/circuit.jpg?raw=1') no-repeat center center fixed;
-  background-size: cover;
+  background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/60degree_gray.png');
+}
+#client {
+  background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
 }
 
 p, .about-me-desc, .portofolio-description-text {
@@ -86,4 +91,22 @@ p, .about-me-desc, .portofolio-description-text {
 }
 #content {
   display: none;
+}
+
+.carousel-caption h3{
+  text-shadow: 1px 2px 1px black;
+}
+.client-image {
+  margin: auto;
+}
+.white-link {
+  color: white;
+  text-decoration: underline;
+  text-shadow: 1px 2px 1px black;
+  &:visited {
+    color: white;
+  }
+  &:hover {
+    color: white;
+  }
 }

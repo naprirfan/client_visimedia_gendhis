@@ -16,9 +16,10 @@ $(document).ready(function(){
 
     var images = [
         "https://www.dropbox.com/s/dakyyuwenfk0hgx/officespace.jpg?raw=1",
-        "https://www.dropbox.com/s/29maewric9z7vwk/circuit.jpg?raw=1",
+        "http://cdn.backgroundhost.com/backgrounds/subtlepatterns/60degree_gray.png",
         "https://www.dropbox.com/s/nxqiies7po29u98/American-skyscrapers.jpg?raw=1",
-        "https://www.dropbox.com/s/po7sdzsifxi5pgx/laptop.jpg?raw=1"
+        "https://www.dropbox.com/s/po7sdzsifxi5pgx/laptop.jpg?raw=1",
+        "http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png"
     ];
     var ready = 0;
 
